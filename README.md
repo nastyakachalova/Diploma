@@ -18,7 +18,7 @@ RoutingApp — это настольное приложение на Python дл
 ### Установка
 
 1. Убедитесь, что у вас установлен Python 3.10+ и пакетный менеджер [uv](https://github.com/astral-sh/uv).
-2. Установите зависимости:
+2. Список всех требуемых библиотек для работы программы находятся в файле requirements.txt.Установите зависимости:
 
 ```bash
 pip install uv
@@ -30,22 +30,6 @@ uv add -r requirements.txt
 
 ```bash
 uv run route_app.py
-```
-
-### Тестирование
-
-Для запуска всех тестов:
-
-```bash
-uv run tests/test_main.py
-```
-
-Или запустите конкретный модуль тестирования:
-
-```bash
-uv run tests/test_database.py
-uv run tests/test_routing.py
-uv run tests/test_gui.py
 ```
 
 ### Структура проекта
